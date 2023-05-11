@@ -1,5 +1,21 @@
 # Express.js Challenge: Note Taker
 
+## Description 
+
+
+The Note Taker built on Express JS is a user-friendly and efficient web application that enables users to create, store, and remove notes with ease.
+
+## Installation
+
+- Clone this repository link: git@github.com:maymyatnoehtet/note_taker_app.git
+- Install the following:
+     - Node.js Version 16.20.0
+     - Express.js: Version 4.16.4
+     - Inquirer.js: Version 6.3.1
+     - Heroku
+- Open the cloned repository in the code editor.
+- Open the integrated terminal and install node, jest and inquirer to ensure the code operate.
+
 ## User Story
 
 ```
