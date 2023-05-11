@@ -1,8 +1,9 @@
-// Import the 'express' module
-const html_router = require('express').Router();
-
-// Import the 'path' module
+// Import the modules required
+const express = require('express');
 const path = require('path');
+
+// Create a new router object for handling HTML routes
+const html_router = express.Router();
 
 // Define a route for the root URL
 // and send the 'index.html' file to the client
