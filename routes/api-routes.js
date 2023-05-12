@@ -49,7 +49,9 @@ api_router.delete('/api/notes/:id', async (req, res) => {
     });
     // Write the updated notes array to the file
     fs.writeFile("db/db.json", JSON.stringify(newNotes), (err) => {
-      if (err) throw err;
+      if (err) {
+        throw err
+      };
       res.json("Note deleted.");
     });
   } catch (err) {
@@ -57,7 +59,5 @@ api_router.delete('/api/notes/:id', async (req, res) => {
     res.status(500).json("Server Error");
   }
 });
-
-
 
 module.exports = api_router;
